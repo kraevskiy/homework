@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #070707;
+}
+
+.container {
+  width: 970px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#header .container {
+  border-bottom: 1px solid #828282;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #828282;
+  text-decoration: none;
+  padding: 0 21px;
+  line-height: 80px;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 34px;
+  letter-spacing: 1px;
+}
+
+.intro {
+  padding-top: 13px;
+}
+
+.intro h1 {
+  margin-bottom: 41px;
+  margin-top: 0;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.about {
+  background: #F6F6F6;
+  padding: 95px 0;
+  text-align: center;
+}
+
+.about p {
+  max-width: 480px;
+}
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-wrapper h2 {
+  margin-bottom: 41px;
+}
+
+.about-wrapper p {
+  letter-spacing: 0.3px;
+}
+
+.about-wrapper p:not(:last-child) {
+  margin-bottom: 30px;
+}
