@@ -1,48 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header id="header">
-        <div class="container">
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Skills</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contacts</a>
-            </nav>
-        </div>
-    </header>
-    <main id="main">
-        <section class="intro">
-            <div class="container">
-                <h1>Denis Novik</h1>
-                <img src="./assets/img/imtro.jpg" alt="Denis Novik">
-            </div>
-        </section>
-        <section class="about">
-            <div class="container">
-                <div class="about-wrapper">
-                    <h2>About me</h2>
-                    <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
-                        I'm interested in design and everything connected with it.</p>
-                    <p>I'm studying at courses "Web and mobile design
-                        interfaces" in IT-Academy.</p>
-                    <p>Ready to implement excellent projects
-                        with wonderful people.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
+<header id="header">
+  <div class="container">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about_me">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contacts">Contacts</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="intro">
+    <div class="container">
+      <h1>Denis Novik</h1>
+      <img src="./assets/img/intro.jpg" alt="Denis Novik">
+    </div>
+  </section>
 
-    </footer>
+  <section class="about" id="about_me">
+    <div class="container">
+      <h2>About me</h2>
+      <p>Hi, I'm Denis – UX/UI designer from Minsk. <br>
+        I'm interested in design and everything connected with it.</p>
+      <p>I'm studying at courses "Web and mobile design <br>
+        interfaces" in IT-Academy.</p>
+      <p>Ready to implement excellent projects <br>
+        with wonderful people.</p>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <p>I work in such programs as</p>
+      <ul>
+        <li>
+          <img src="./assets/img/ps.jpg" alt="Adobe Photoshop">
+          <p>Adobe <br> Photoshop</p>
+          <div class="skills__stars">
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </li>
+        <li>
+          <img src="./assets/img/ai.jpg" alt="Adobe Illustrator">
+          <p>Adobe <br> Illustrator</p>
+          <div class="skills__stars">
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span></span>
+            <span></span>
+          </div>
+        </li>
+        <li>
+          <img src="./assets/img/ae.jpg" alt="Adobe After Effects">
+          <p>Adobe <br> After Effects</p>
+          <div class="skills__stars">
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span></span>
+          </div>
+        </li>
+        <li>
+          <img src="./assets/img/figma.png" alt="Figma">
+          <p>Figma</p>
+          <div class="skills__stars">
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+            <span class="--active"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-list">
+        <div>
+          <img src="./assets/img/fashion.jpg" alt="Online fashion store - Homepage">
+          <a href="#">Online fashion store - <br>Homepage</a>
+        </div>
+        <div>
+          <img src="./assets/img/reebok.jpg" alt="Reebok Store - Concept">
+          <a href="#">Reebok Store - Concept</a>
+        </div>
+        <div>
+          <img src="./assets/img/braun.jpg" alt="Braun Landing Page - Concept">
+          <a href="#">Braun Landing Page - Concept </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="footer">
+  <div class="container">
+    <div id="contacts" class="contacts">
+      <h2>Contacts</h2>
+      <p class="text">Want to know more or just chat? <br> You are welcome!</p>
+      <button>Send message</button>
+      <ul class="socials">
+        <li>
+          <a href="#"><img src="./assets/img/icon/linkedin.png" alt="linkedin"></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/img/icon/instagram.png" alt="instagram"></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/img/icon/behance.png" alt="behance"></a>
+        </li>
+        <li>
+          <a href="#"><img src="./assets/img/icon/dribbble.png" alt="dribbble"></a>
+        </li>
+      </ul>
+      <p class="likes">
+        Like me on <br>
+        <a href="#">LinkedIn</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <br><a href="#">Dribble</a>
+      </p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
