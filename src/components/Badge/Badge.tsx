@@ -1,6 +1,6 @@
 import React from 'react';
 import { BadgeProps } from './Badge.props';
-import { colors } from './../../theme/colors';
+import { colors } from '../../theme/colors';
 
 export const Badge: React.FC<BadgeProps> = ({ color = 'blue', children, ...props }) => {
 	return (
