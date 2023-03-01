@@ -1,0 +1,93 @@
+@import "reset.css";
+@import "custom_input.css";
+@import "custom_button.css";
+
+.btn {
+  font-weight: 700;
+  font-size: 18px;
+  background: #070707;
+  color: #fff;
+  border-radius: 22px;
+  height: 44px;
+  padding: 0 16px;
+  text-decoration: none;
+  box-shadow: none;
+  border: 2px solid #070707;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: all .4s;
+  min-width: 120px;
+  display: inline-block;
+  line-height: 44px;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #070707;;
+}
+
+/*.about h2 {*/
+/*  font-weight: 700;*/
+/*  font-size: 34px;*/
+/*}*/
+
+/*.skills h2 {*/
+/*  font-weight: 700;*/
+/*  font-size: 34px;*/
+/*}*/
+
+.container {
+  max-width: 970px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section {
+  text-align: center;
+  padding: 100px 0;
+}
+
+
+h2 {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.bg-gray {
+  background: #F6F6F6;
+}
+
+.about {
+  padding: 100px 0;
+}
+
+h1 {
+  color: red;
+}
+
+.skills-list li {
+  display: inline-block;
+  width: 170px;
+  height: 200px;
+  border: 2px solid red;
+  margin-right: 97px;
+}
+
+.skills-list li:last-child {
+  margin-right: 0;
+}
+
+.skills-list li {
+  float: left;
+}
+
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.about-title {
+  padding-bottom: 50px;
+  border-bottom: 1px solid red;
+}
