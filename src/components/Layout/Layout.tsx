@@ -2,9 +2,8 @@ import React from 'react';
 import { LayoutProps } from './Layout.props';
 import { Table } from '../';
 import { useThemeMod } from '../../hooks/useThemeMod';
-import { Button } from '../Button/Button';
 
-export const Layout: React.FC<LayoutProps> = ({ children, ...props }) => {
+export const Layout: React.FC<LayoutProps> = ({ ...props }) => {
 	useThemeMod();
 	return (
 		<div

@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { TableRowProps } from './TableRow.props';
-import { TDataType, TDataTypeValue, TDataLinks } from '../../data/data.types';
+import { TDataLinks, TDataType, TDataTypeValue } from '../../data/data.types';
 import { Badge, ButtonLink } from '../';
 import { TThemeColor } from '../../theme/colors';
 
@@ -8,6 +8,7 @@ const getType = (type?: TDataType): ReactNode => {
 	if (!type) {
 		return '';
 	}
+
 	function typeByColor(someType: TDataTypeValue): TThemeColor {
 		if (someType === 'Lesson') {
 			return 'blue';
@@ -15,6 +16,7 @@ const getType = (type?: TDataType): ReactNode => {
 			return 'green';
 		}
 	}
+
 	if (Array.isArray(type)) {
 		return type.map((t) => (
 			<Badge key={t} color={typeByColor(t)}>
@@ -42,7 +44,7 @@ const getBtns = (btns?: TDataLinks): ReactNode => {
 	));
 };
 
-export const TableRow: React.FC<TableRowProps> = ({ data, ...props }) => {
+export const TableRow: React.FC<TableRowProps> = ({data, ...props}) => {
 	return (
 		<tr className="border-b border-slate-200 dark:border-slate-600" {...props}>
 			<td className="py-2 px-2">{getType(data.type)}</td>
