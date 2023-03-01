@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "type": "Lessons",
+      "type": "Lesson",
       "name": "Semantic",
       "links": {
-        "demo": "https://kraevskiy.github.io/homework/materials/04-Semantic/index.html",
+        "demo": "./materials/04-Semantic/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/materials/04-Semantic"
       }
     },
@@ -12,64 +12,32 @@
       "type": "Lesson",
       "name": "CSS",
       "links": {
-        "demo": "https://kraevskiy.github.io/homework/materials/",
+        "demo": "./materials/06-CSS_1/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/materials/06-CSS_1"
       }
     },
     {
-      "type": "",
-      "name": "",
+      "type": "Materials",
+      "name": "Productly markup",
       "links": {
-        "demo": "",
-        "code": ""
+        "demo": "./materials/productly/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/materials/productly"
       }
     },
     {
-      "type": "",
-      "name": "",
+      "type": "Lesson",
+      "name": "Fonts",
       "links": {
-        "demo": "",
-        "code": ""
+        "demo": "./materials/l-11_fonts/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/materials/l-11_fonts"
       }
     },
     {
-      "type": "",
-      "name": "",
+      "type": "Lesson",
+      "name": "Position & Transform",
       "links": {
-        "demo": "",
-        "code": ""
-      }
-    },
-    {
-      "type": "",
-      "name": "",
-      "links": {
-        "demo": "",
-        "code": ""
-      }
-    },
-    {
-      "type": "",
-      "name": "",
-      "links": {
-        "demo": "",
-        "code": ""
-      }
-    },
-    {
-      "type": "",
-      "name": "",
-      "links": {
-        "demo": "",
-        "code": ""
-      }
-    },
-    {
-      "type": "",
-      "name": "",
-      "links": {
-        "demo": "",
-        "code": ""
+        "demo": "./materials/l-12_position_transform/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/materials/l-12_position_transform"
       }
     }
   ]

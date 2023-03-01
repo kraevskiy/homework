@@ -9,7 +9,7 @@ const getType = (type?: TDataType): ReactNode => {
 		return '';
 	}
 	function typeByColor(someType: TDataTypeValue): TThemeColor {
-		if (someType === 'Lessons') {
+		if (someType === 'Lesson') {
 			return 'blue';
 		} else {
 			return 'green';
