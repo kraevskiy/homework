@@ -5,7 +5,7 @@
       "name": "Semantic",
       "links": {
         "demo": "./materials/04-Semantic/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/materials/04-Semantic"
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/04-Semantic"
       }
     },
     {
@@ -13,7 +13,7 @@
       "name": "CSS",
       "links": {
         "demo": "./materials/06-CSS_1/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/materials/06-CSS_1"
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/06-CSS_1"
       }
     },
     {
@@ -21,7 +21,7 @@
       "name": "Productly markup",
       "links": {
         "demo": "./materials/productly/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/materials/productly"
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/productly"
       }
     },
     {
@@ -29,7 +29,7 @@
       "name": "Fonts",
       "links": {
         "demo": "./materials/l-11_fonts/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/materials/l-11_fonts"
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/l-11_fonts"
       }
     },
     {
@@ -37,7 +37,7 @@
       "name": "Position & Transform",
       "links": {
         "demo": "./materials/l-12_position_transform/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/materials/l-12_position_transform"
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/l-12_position_transform"
       }
     }
   ]
