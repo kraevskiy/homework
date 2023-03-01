@@ -1,1 +1,1 @@
-link to homeworks [click here](https://kraevskiy.github.io/homework/).
+link to materials table [click here](https://kraevskiy.github.io/homework/).
