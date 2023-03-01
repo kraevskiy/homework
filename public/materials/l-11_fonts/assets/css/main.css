@@ -1,0 +1,111 @@
+
+h1 {
+  font-family: sans-serif;
+  text-transform: none;
+}
+
+h1:hover span {
+  filter: blur(2px);
+}
+
+*::selection {
+  color: red;
+  background: blue;
+}
+
+h1::first-letter {
+  font-size: 45px;
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+a:after {
+  display: block;
+  content: '';
+  width: 0;
+  background: linear-gradient(to right, blue 0%, green 50%, red 100%);
+  transition: all .4s;
+  transform: translateX(50%);
+  height: 3px;
+}
+
+a:hover:after {
+  width: 100%;
+  transform: translateX(0);
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 35px;
+  text-indent: 20px;
+
+  /*font-style: italic;*/
+}
+
+.ff-28 {
+  font-family: '28 Days';
+}
+
+.ff-alex {
+  font-family: 'Alex';
+}
+
+.ff-rema {
+  font-family: 'remachine_script_personal_uRg';
+}
+
+.ff-orange {
+  font-family: 'Orange';
+}
+
+button {
+  padding: 10px 20px;
+  box-shadow: none;
+  border: 1px solid;
+}
+
+button svg {
+  width: 40px;
+  height: 40px;
+}
+
+button:hover {
+  color: white;
+  background: black;
+}
+
+button #path1 {
+  fill: #FAE1DC;
+  transition: all 5s;
+}
+button #path2 {
+  fill: #98383A;
+  transition: all 5s;
+}
+button #path3 {
+  fill: #63BCBC;
+  transition: all 5s;
+}
+button #path4 {
+  fill: #508D92;
+  transition: all 5s;
+}
+
+button:hover #path1 {
+  fill: #7f1601
+}
+button:hover #path2 {
+  fill: #845b5c
+}
+button:hover #path3 {
+  fill: #145a5a
+}
+button:hover #path4 {
+  fill: #00737d
+}
