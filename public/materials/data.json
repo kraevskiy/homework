@@ -39,6 +39,14 @@
         "demo": "./materials/l-12_position_transform/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/l-12_position_transform"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "Styling Form",
+      "links": {
+        "demo": "./materials/l_13_styling_forms/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/l_13_styling_forms"
+      }
     }
   ]
 }

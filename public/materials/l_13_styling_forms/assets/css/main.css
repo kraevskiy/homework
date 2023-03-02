@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --form-color-main: #7A5CFA;
+  --form-color-label: #666666;
+  --form-color-value: #333333;;
+  --form-color-white: #ffffff;
+  --form-color-border: #CCCCCC;
+  --form-color-danger: #EB5757;
+  --form-color-success: #8deb57;
+  --form-color-light-main: rgba(122, 92, 250, 0.2);
+  --form-input-height: 56px;
+}
+
+.container {
+  max-width: 760px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  background: var(--form-color-light-main);
+  font-family: Arial, sans-serif;
+}
+
+input:not([type=checkbox], [type=radio], [type=file]),
+textarea,
+select {
+  width: 100%;
+  height: var(--form-input-height);
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid var(--form-color-border);
+  font-family: 'Noto Sans', sans-serif;
+  color: var(--form-color-value);
+  outline: 0 none;
+}
+
+textarea {
+  padding: 16px;
+  resize: none;
+  height: 106px;
+}
+
+input:focus:not([type=checkbox], [type=radio]),
+textarea:focus,
+select:focus,
+.my-select span:focus {
+  border: 2px solid var(--form-color-main);
+  padding: 0 15px;
+}
+
+textarea:focus {
+  padding: 15px;
+}
+
+
+.main {
+}
+
+.main__content {
+  padding: 98px;
+  background: var(--form-color-white);
+}
+
+.my-input {
+  margin-bottom: 32px;
+}
+
+.my-input__label {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px;
+  color: var(--form-color-label);
+  display: block;
+  font-weight: 600;
+}
+
+.my-input__form-elem {
+  position: relative;
+}
+
+.my-input__form-elem:after {
+  position: absolute;
+  content: '!';
+  width: 20px;
+  height: 20px;
+  background: var(--form-color-danger);
+  color: var(--form-color-white);
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  top: 18px;
+  right: 18px;
+  display: none;
+}
+
+.is-success .my-input__form-elem:after{
+  display: inline-block;
+  background: var(--form-color-success);
+}
+
+.has-error .my-input__form-elem:after {
+  display: inline-block;
+}
+
+.my-input__info {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--form-color-label);
+  display: block;
+  margin-top: 8px;
+}
+
+.my-input__error {
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--form-color-danger);
+  display: block;
+  margin-top: 8px;
+}
+
+.has-error input:not([type=checkbox], [type=radio], [type=file]),
+.has-error textarea,
+.has-error select {
+  border: 2px solid var(--form-color-danger);
+}
+
+.is-success input:not([type=checkbox], [type=radio], [type=file]),
+.is-success textarea,
+.is-success select {
+  border: 2px solid var(--form-color-success);
+}
+
+.is-success .my-input__error {
+  display: none;
+}
+
+.my-select {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.my-select.open .my-select__input{
+  border-radius: 8px 8px 0 0;
+  border: 2px solid var(--form-color-main);
+  padding: 0 15px;
+}
+
+.my-select__input:hover {
+  cursor: pointer;
+}
+
+.my-select__list {
+  list-style: none;
+  border: 1px solid var(--form-color-border);
+  border-radius: 0 0 8px 8px;
+  max-height: 0;
+  overflow-y: auto;
+  transition: all .4s;
+  visibility: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  left: 0;
+  top: var(--form-input-height);
+  background: var(--form-color-white);
+  min-width: 100%;
+  z-index: 1000;
+}
+
+.my-select.open .my-select__list {
+  max-height: calc(var(--form-input-height) * 3);
+  visibility: visible;
+}
+
+.my-select__item {
+  display: block;
+  height: var(--form-input-height);
+  line-height: var(--form-input-height);
+  padding: 0 16px;
+  font-size: 16px;
+  border-bottom: 1px solid var(--form-color-border);
+}
+
+.my-select__item.selected {
+  background: var(--form-color-main);
+  color: var(--form-color-white);
+}
+
+.my-select__item:hover {
+  background: var(--form-color-light-main);
+}
+
+.my-select__item:last-child {
+  border-bottom: none;
+}
