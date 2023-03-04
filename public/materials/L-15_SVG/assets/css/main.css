@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 90%;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.svg {
+  width: 200px;
+  border: 1px solid;
+
+}
+
+img {
+  max-width: 200px;
+}
+svg {
+  max-width: 200px;
+}
+.path1 {
+  fill: #B9DCFF
+}
+path {
+  transition: all 2s;
+}
+
+svg:hover .path2 {
+  fill: red;
+  stroke-dasharray: 5;
+}
