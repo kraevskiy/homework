@@ -47,6 +47,14 @@
         "demo": "./materials/l_13_styling_forms/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/l_13_styling_forms"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "SVG",
+      "links": {
+        "demo": "./materials/L-15_SVG/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-15_SVG"
+      }
     }
   ]
 }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="id1" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="30" fill="#00f" stroke="red" stroke-width="3"/>
+      <path stroke="green" stroke-width="5" d="m10 10 80 80"/>
+    </symbol>
+    <symbol id="id2" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="30" fill="#00f" stroke="red" stroke-width="3"/>
+    </symbol>
+    <symbol id="id3" viewBox="0 0 100 100">
+      <ellipse cx="50" cy="50" fill="pink" stroke="#00f" stroke-width="5" rx="40" ry="10"/>
+    </symbol>
+    <symbol id="id4" viewBox="0 0 100 100">
+      <path stroke="tomato" stroke-linejoin="round" stroke-width="5" d="m20 20 10-10 20 80H10l15-40z"/>
+    </symbol>
+    <symbol id="id5" viewBox="0 0 100 100">
+      <rect width="50" height="80" x="20" y="10" rx="15" ry="50"/>
+    </symbol>
+  </defs>
+</svg>
