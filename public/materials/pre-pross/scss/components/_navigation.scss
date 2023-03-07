@@ -1,0 +1,21 @@
+.nav {
+    &__list {
+        @include flex('center', 'center');
+    }
+    &__item {}
+    &__link {
+        color: $c-main;
+        font-size: 15px;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+
+        &--active {
+            color: $c-orange;
+        }
+        
+        &:hover {
+            color: $c-orange;    
+        }
+    }
+}

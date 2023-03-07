@@ -1,0 +1,23 @@
+@import './mixins';
+
+$c-orange: #F9995D;
+$c-main: #14171F;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 95%;
+}
