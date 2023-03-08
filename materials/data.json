@@ -60,8 +60,8 @@
       "type": "Lesson",
       "name": "SCSS",
       "links": {
-        "demo": "./materials/pre-pros/index.html",
-        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/pre-pros"
+        "demo": "./materials/pre-pross/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/pre-pross"
       }
     }
   ]
