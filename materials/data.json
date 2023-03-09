@@ -63,6 +63,14 @@
         "demo": "./materials/pre-pross/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/pre-pross"
       }
+    },
+    {
+      "type": "Materials",
+      "name": "Strucrures && BEM",
+      "links": {
+        "demo": "./materials/structure/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/structure"
+      }
     }
   ]
 }
