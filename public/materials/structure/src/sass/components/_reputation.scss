@@ -1,0 +1,29 @@
+.reputation {
+    &__title{
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    &__list{}
+}
+
+.reputation-cards {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    &__item {
+        max-width: 292px;
+        border: 1px solid orange;
+    }
+    &__icon {
+        margin-bottom: 10px;
+    }
+    &__title {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    &__text {
+     color: gray;
+    }
+}

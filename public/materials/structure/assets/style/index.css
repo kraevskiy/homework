@@ -1,0 +1,57 @@
+.intro {
+  position: relative;
+  height: 60vh;
+  background: greenyellow;
+}
+.intro__info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 416px;
+}
+
+.intro-info {
+  background: blue;
+  text-align: center;
+}
+.intro-info__title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.intro-info__text {
+  margin-bottom: 10px;
+}
+.intro-info__actions {
+  display: flex;
+  align-items: center;
+}
+.reputation__title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.reputation-cards {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+.reputation-cards__item {
+  max-width: 292px;
+  border: 1px solid orange;
+}
+.reputation-cards__icon {
+  margin-bottom: 10px;
+}
+.reputation-cards__title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.reputation-cards__text {
+  color: gray;
+}
+
+img {
+  max-width: 100%;
+}/*# sourceMappingURL=index.css.map */
