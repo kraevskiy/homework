@@ -1,0 +1,32 @@
+@mixin flex-center() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex($alignItems: center, $justifyContent: center) {
+    display: flex;
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
+
+@function pxToRem ($px) {
+    @return calc($px / 16) + rem;
+}
+
+@function flexOrBlock ($value: flex) {
+    @if ($value == block) {
+        @return block;
+    } @else {
+        @return flex;
+    }
+}
+
+@mixin generateSizes () {
+    $fonst-sizes-list: 18 20 24 36 72;
+    @each $value in $fonst-sizes-list {
+        .--fs-#{$value} {
+            font-size: pxToRem($value);
+        }
+    }
+}

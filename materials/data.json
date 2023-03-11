@@ -71,6 +71,14 @@
         "demo": "./materials/structure/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/structure"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "Responsive",
+      "links": {
+        "demo": "./materials/L-17_responsive/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-17_responsive"
+      }
     }
   ]
 }
