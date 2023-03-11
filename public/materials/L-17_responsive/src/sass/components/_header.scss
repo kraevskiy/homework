@@ -1,0 +1,16 @@
+.header {
+    @include breakpoint('lg') { 
+        padding-top: 10px;
+    }
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint('lg') { 
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    &__logo{}
+    &__nav{}
+}
