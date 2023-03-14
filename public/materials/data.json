@@ -79,6 +79,14 @@
         "demo": "./materials/L-17_responsive/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-17_responsive"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "Responsive Navigation",
+      "links": {
+        "demo": "./materials/L-18_responsive_nav/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-18_responsive_nav"
+      }
     }
   ]
 }
