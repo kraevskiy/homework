@@ -1,0 +1,78 @@
+.intro {
+    position: relative;
+    background: greenyellow;
+    padding: 239px 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(./../images/intro.jpg);
+    &__title {
+        font-size: pxToRem(72);
+        max-width: 556px;
+        font-weight: 600;
+        // transform: translateX(100px) translateY(100px);
+        // transform: translate(100px, 200px);
+        // transform: scaleX(1.2) scaleY(0.5);
+        // transform: scale(1.2, 0.5);
+        // transform: rotate(40deg);
+        // transform: skewX(40deg) skewY(40deg);
+        
+        @include breakpoint('sm') { 
+            text-align: center;
+            max-width: unset;
+        }
+    }
+    &__info {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 416px;
+    
+        @include breakpoint('sm') { 
+            width: 100%;
+        }
+    }
+}
+
+.intro-info {
+    background: $c-blue;
+    text-align: center;
+    padding-top: 20px;
+    color: $c-white;
+    &__title {
+        font-weight: 700;
+        margin-bottom: 20px;
+        font-size: pxToRem(20);
+        @include breakpoint('sm') { 
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    &__text {
+        margin-bottom: 26px;
+        font-size: pxToRem(24);
+        @include breakpoint('sm') { 
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    &__actions {
+        display: flex;
+        align-items: stretch;
+    }
+    &__action {
+        background-color: $c-main;
+        color: $c-white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: pxToRem(18);
+        border: none;
+        width: calc(50% - 0.5px);
+        padding: 10px;
+        cursor: pointer;
+        &--back {}
+        &--next {}
+    }
+    &__divider {
+        background: $c-white;
+        width: 1px;
+    }
+}
