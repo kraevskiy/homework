@@ -87,6 +87,14 @@
         "demo": "./materials/L-18_responsive_nav/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-18_responsive_nav"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "CSS Animation",
+      "links": {
+        "demo": "./materials/L-20_animation/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-20_animation"
+      }
     }
   ]
 }
