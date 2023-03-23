@@ -95,6 +95,14 @@
         "demo": "./materials/L-20_animation/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-20_animation"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "Practise #1",
+      "links": {
+        "demo": "./materials/team_work/index.html",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/team_work"
+      }
     }
   ]
 }
