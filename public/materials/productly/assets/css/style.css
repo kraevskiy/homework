@@ -19,6 +19,8 @@
   --fs-22: 22px;
   --fs-36: 36px;
   --fs-44: 44px;
+  --bg-big: url('./../img/bg.png');
+  --bg-small: url('./../img/small.svg');
 }
 
 * {
@@ -372,7 +374,7 @@ img {
 
 .tools {
   padding: 30px 0 75px;
-  background: url("./../img/bg.png") bottom center no-repeat;
+  background: var(--bg-big) bottom center no-repeat;
 }
 
 .professionals {
@@ -425,4 +427,12 @@ img {
 .marketers__card h3,
 .marketers__card .content-card__sub-title{
   margin-bottom: 11px;
+}
+
+@media screen and (max-width: 500px) {
+  
+.tools {
+  padding: 30px 0 75px;
+  background: var(--bg-small) bottom center no-repeat;
+}
 }

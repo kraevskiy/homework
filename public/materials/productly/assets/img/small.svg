@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 13" width="16" height="13">
+	<title>Tweter copy</title>
+	<defs>
+		<image  width="16" height="13" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAANCAMAAACXZR4WAAAAAXNSR0IB2cksfwAAAD9QTFRF////////////////////////////////////////////////////////////////////////////////////NZumWwAAABV0Uk5TACAQr//PYE9AgNDvXzDwn3DfUOCgGdv6eQAAAGBJREFUeJxljlESgCAIBTGxELPMuv9ZEwybpveju7xRAH5xUz88hnmhdotBDWNLUIFpBcjCyDJzG2Lyu4oo3XLgSBGRX8as71c2Pvu/NAr12cQq11ht/zD1OVtfVInkDG5CAgMXKyG75AAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Tweter copy" href="#img1" x="0" y="0"/>
+</svg>
