@@ -103,6 +103,14 @@
         "demo": "./materials/team_work/index.html",
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/team_work"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "Webpack",
+      "links": {
+        "demo": "./materials/L-35_webpack",
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L-35_webpack"
+      }
     }
   ]
 }
