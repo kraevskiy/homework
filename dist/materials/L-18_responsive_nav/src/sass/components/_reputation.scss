@@ -1,0 +1,62 @@
+.reputation {
+    padding-top: 60px;
+    padding-bottom: 84px;
+    @include breakpoint('md') { 
+        padding-bottom: 42px;
+    }
+    &__title{
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 700;
+    }
+    &__list{
+
+    }
+}
+
+.reputation-cards {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    @include breakpoint('sm') {
+        flex-wrap: wrap;
+        row-gap: 15px;
+    }
+    &__item {
+        max-width: 292px;
+        border: 1.5px solid $c-border;
+        border-radius: 4px;
+        padding: 20px 20px 40px 20px;
+        @include breakpoint('lg') { 
+            width: 30%;
+            max-width: unset;
+        }
+        @include breakpoint('sm') { 
+            width: 100%;
+            text-align: center;
+        }
+    }
+    &__icon {
+        margin-bottom: 18px;
+        width: 40px;
+        height: 40px;
+        color: $c-orange;
+        &>* {
+            width: 100%;
+            height: 100%;
+        }
+        @include breakpoint('sm') { 
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__title {
+        font-weight: bold;
+        font-size: pxToRem(20);
+        margin-bottom: 18px;
+    }
+    &__text {
+        color: $c-natural;
+    }
+}

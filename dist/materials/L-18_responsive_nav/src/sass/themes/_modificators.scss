@@ -1,0 +1,63 @@
+.--c-orange {
+	color: $c-orange;
+}
+.--c-main-dark {
+	color: $c-main-dark;
+}
+.--c-main {
+	color: $c-main;
+}
+.--c-main-light {
+	color: $c-main-light;
+}
+.--c-white {
+	color: $c-white;
+}
+.--c-natural {
+	color: $c-natural;
+}
+.--c-blue {
+	color: $c-blue;
+}
+.--c-blue-light {
+	color: $c-blue-light;
+}
+.--c-gray {
+	color: $c-gray;
+}
+.--c-border {
+	color: $c-border;
+}
+
+.--bg-orange {
+	background-color: $c-orange;
+}
+.--bg-main-dark {
+	background-color: $c-main-dark;
+}
+.--bg-main {
+	background-color: $c-main;
+}
+.--bg-main-light {
+	background-color: $c-main-light;
+}
+.--bg-white {
+	background-color: $c-white;
+}
+.--bg-natural {
+	background-color: $c-natural;
+}
+.--bg-blue {
+	background-color: $c-blue;
+}
+.--bg-blue-light {
+	background-color: $c-blue-light;
+}
+.--bg-gray {
+	background-color: $c-gray;
+}
+.--bg-border {
+	background-color: $c-border;
+}
+
+@include generateSizes()

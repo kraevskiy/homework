@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Forms</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+<main class="main">
+  <div class="container">
+    <div class="main__content">
+      <form action="#">
+        <div class="my-input">
+          <label for="select" class="my-input__label">Username</label>
+          <div class="my-input__form-elem" id="custom-select">
+            <select id="select" >
+              <option value="1">11</option>
+              <option value="2">22</option>
+              <option value="3">33</option>
+              <option value="4">44</option>
+              <option value="5">55</option>
+            </select>
+          </div>
+        </div>
+        <div class="my-input is-success">
+          <label for="name" class="my-input__label">Username</label>
+          <div class="my-input__form-elem">
+            <input type="text" id="name" >
+            <span class="my-input__error">Error message informing me of a problem</span>
+          </div>
+        </div>
+        <div class="my-input has-error">
+          <label for="password" class="my-input__label">Password</label>
+          <div class="my-input__form-elem">
+            <input type="text" id="password" >
+            <span class="my-input__error">Your password is between 4 and 12 characters</span>
+          </div>
+        </div>
+        <div class="my-input">
+          <label for="text" class="my-input__label">Textarea</label>
+          <div class="my-input__form-elem">
+            <textarea type="text" id="text"></textarea>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+<script src="./assets/js/main.js"></script>
+</body>
+</html>

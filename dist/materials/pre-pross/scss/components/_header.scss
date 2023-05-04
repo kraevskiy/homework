@@ -1,0 +1,14 @@
+.header {
+    // background: red;
+
+    &__body{
+        @include flex();
+        // display: flexOrBlock(block); // block
+    }
+
+    &__nav,
+    &__logo {
+        background: blue;
+    }
+}
+

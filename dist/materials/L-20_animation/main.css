@@ -1,0 +1,217 @@
+.div {
+	width: 300px;
+	/* animation-name: first;
+	animation-duration: 10s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-direction: none;
+	animation-fill-mode: forwards; */
+	/* animation: first 2s; */
+	border: 1px solid;
+	color: red;
+	font-size: 14px;
+	transition: color 3s, width 3s, font-size 10s;
+	
+}
+
+.div:hover {
+	width: 400px;
+	font-size: 20px;
+	color: blue;
+}
+
+@keyframes first {
+	from, to {
+		transform: translate(0, 0);
+	}
+	25% {
+		transform: translate(100px, 0) scale(0.9);
+		color: red;
+	}
+	50% {
+		transform: translate(100px, 100px) scale(1.1);
+		color: blue;
+	}
+	75% {
+		transform: translate(0, 100px)  scale(0.9);
+		color: green;
+	}
+}
+
+svg line {
+	stroke: red;
+	stroke-width: 5;
+	/* animation: line 3s infinite; */
+}
+
+@keyframes line {
+	from, to {
+		stroke-dasharray: 0;
+	}
+	50% {
+		stroke-dasharray: 10;
+	}
+}
+
+svg rect {
+	fill: transparent;
+	/* stroke-width: 5; */
+	animation: rect 3s infinite;
+	stroke: black;
+	/* stroke-width: 1; */
+}
+
+@keyframes rect {
+	from, to {
+		fill: transparent;
+		stroke-width: 1;
+	}
+	50% {
+		fill: blue;
+		stroke-width: 5;
+	}
+}
+
+svg text {
+	font-size: 100px;
+	stroke: aqua;
+	stroke-width: 2;
+	fill: transparent;
+	/* animation: text 3s infinite; */
+	stroke-dasharray: 453;
+	stroke-dashoffset: -453;
+	transition: all 3s;
+}
+
+svg:hover text {
+	stroke-dasharray: 0;
+	stroke-dashoffset: 0;
+}
+
+@keyframes text {
+	from, to {
+		stroke-dasharray: 453;
+    	stroke-dashoffset: -453;
+	}
+	50% {
+		stroke-dasharray: 0;
+    	stroke-dashoffset: 0;
+	}
+}
+
+
+.icon {
+	width: 200px;
+	height: 200px;
+}
+
+.icon .path1 {
+	fill: #DAAAAB;
+	animation: path1 10s infinite;
+}
+
+.icon .path2 {
+	fill: #892127;
+	animation: path2 3s infinite;
+}
+
+@keyframes path1 {
+	25%, 45%, 65%, 85% {
+		transform: scale(.8) rotate(10deg);
+	}
+	15%, 35%, 55%, 75% {
+		transform: scale(1.2) rotate(-10deg);
+	}
+	10% {
+		fill: blue;
+	}
+	20% {
+		fill: green;
+	}
+	30% {
+		fill: grey;
+	}
+	40% {
+		fill: gold;
+	}
+	50% {
+		fill: purple;
+	}
+	60% {
+		fill: orange;
+	}
+	70% {
+		fill: olive;
+	}
+	80% {
+		fill: pink;
+	}
+	90% {
+		fill: fuchsia;
+	}
+}
+@keyframes path2 {
+	from, to {
+		fill: #892127;
+	}
+	20% {
+		fill: transparent;
+		stroke-width: 40;
+		stroke: red;
+	}
+	30% {
+		stroke-dasharray: 453;
+    	stroke-dashoffset: -453;
+	}
+	90% {
+		stroke-dasharray: 0;
+    	stroke-dashoffset: 0;
+	}
+	95% {
+		stroke-width: 0;
+		fill: transparent;
+	}
+}
+
+svg .svg-elem-1 {
+  stroke-dashoffset: 3287.712890625px;
+  stroke-dasharray: 3287.712890625px;
+  fill: transparent;
+  -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
+                        fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s;
+          transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
+                fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.8s;
+}
+
+svg.active .svg-elem-1 {
+  stroke-dashoffset: 0;
+  fill: rgb(218, 170, 171);
+}
+
+svg .svg-elem-2 {
+  stroke-dashoffset: 7173.123046875px;
+  stroke-dasharray: 7173.123046875px;
+  fill: transparent;
+  -webkit-transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s,
+                        fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s;
+          transition: stroke-dashoffset 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0.12s,
+                fill 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 0.9s;
+}
+
+svg.active .svg-elem-2 {
+  stroke-dashoffset: 0;
+  fill: rgb(137, 33, 39);
+}
+
+
+svg:hover .svg-elem-1 {
+  stroke-dashoffset: 0;
+  fill: rgb(218, 170, 171);
+}
+
+
+svg:hover .svg-elem-2 {
+  stroke-dashoffset: 0;
+  fill: rgb(137, 33, 39);
+}

@@ -1,0 +1,22 @@
+.header {
+    @include breakpoint('lg') { 
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    &__body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include breakpoint('lg') { 
+            flex-wrap: wrap;
+        }
+    }
+    &__logo{}
+    &__nav{}
+    &__burger{
+        display: none;
+        @include breakpoint('lg') { 
+            display: block;
+        }
+    }
+}
