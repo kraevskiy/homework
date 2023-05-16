@@ -117,6 +117,13 @@
       "links": {
         "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/L_37_FE-tools"
       }
+    },
+    {
+      "type": "Lesson",
+      "name": "React",
+      "links": {
+        "code": "https://github.com/kraevskiy/homework/tree/main/public/materials/react"
+      }
     }
   ]
 }
