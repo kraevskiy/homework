@@ -1,4 +1,3 @@
-import { Layout } from '../';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { createContext, useState } from 'react';
@@ -9,6 +8,7 @@ const UserProvider = userContext.Provider;
 
 export const App = () => {
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
+
 	return (
 		<UserProvider value={{
 			user: {
@@ -16,10 +16,8 @@ export const App = () => {
 				setIsLoggedIn
 			}
 		}}>
-			<>
-				<Routes />
-				<ToastContainer />
-			</>
+			<Routes />
+			<ToastContainer />
 		</UserProvider>
 	)
 }

@@ -1,33 +1,19 @@
 import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react'
-import { Loader } from '../components/index.jsx'
+import { Loader } from '../components/index.jsx';
+import { useFetch } from '../hooks/useFetch.js';
+import { useWindowSize } from '../hooks/useWindowSize.js'
 
 const Product = () => {
 	const { productId } = useParams();
-	const [ product, setProduct ] = useState(null);
-	const [ isLoading, setIsLoading ] = useState(false);
-
-	useEffect(() => {
-		setIsLoading(true);
-		fetch('https://dummyjson.com/products' + '/' + productId)
-			.then(res => res.json())
-			.then(data => {
-				setProduct(data);
-				setIsLoading(false);
-			})
-			.catch(e => {
-				console.log(e)
-			});
-	}, [])
-
+	const [ { data, isLoading } ] = useFetch('https://dummyjson.com/products' + `/${productId}`);
 	return (
 		<div>
-			{ isLoading && <Loader />}
-			{ product && (
+			{isLoading && <Loader />}
+			{data && (
 				<>
-					<div>title: {product.title}</div>
-					<div>brand: {product.brand}</div>
-					{product.images.map(img => <img src={img} key={img} alt={img} />)}
+					<div>title: {data.title}</div>
+					<div>brand: {data.brand}</div>
+					{data.images.map(img => <img src={img} key={img} alt={img} />)}
 				</>
 			)}
 		</div>

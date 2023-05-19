@@ -10,7 +10,7 @@ export const Card = ({ data, loading, ...props }) => {
 
 	const handleClick = (e) => {
 		e.preventDefault();
-		navigate(`${data.id}`);
+		navigate(`/products/${data.id}`);
 	}
 
 	return (
