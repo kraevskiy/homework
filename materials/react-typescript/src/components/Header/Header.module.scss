@@ -1,0 +1,32 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background: var(--arc-palette-title);
+}
+
+.logo {
+  width: 180px;
+  img {
+    width: 100%;
+  }
+}
+
+.nav {
+  &List {
+    display: flex;
+  }
+  &Item {}
+  &Link {
+    display: block;
+    padding: 10px 15px;
+    &Active {
+      color: blue;
+    }
+  }
+}
